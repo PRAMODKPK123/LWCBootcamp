@@ -1,0 +1,41 @@
+//helloWorld.html
+
+<template>
+   <lightning-card>
+    <div class="p" > Hello World</div>
+    <div class="p1" > This is my first Lightning Web Component</div>
+    <div class="p2" > i'm so excited to be part of this Bootcamp</div>
+    
+  </lightning-card>
+  
+   <!-- <p id="para1" style="color:blue;">Hello World</p>
+    <p id="para2" style="color:red;">This is my first Lightning Web Component</p>
+    <p id="para3" style="color:green;">i'm so excited to be part of this Bootcamp </p>
+    -->
+</template>
+
+//helloWorld.css
+.p{
+  color: blue;
+}
+.p1{
+  color: red;
+}
+.p2{
+  color: green;
+}
+
+//helloWorld.js-meta.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__RecordPage</target>
+    </targets>
+</LightningComponentBundle>
+
+
