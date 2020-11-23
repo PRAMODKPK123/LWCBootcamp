@@ -1,1 +1,15 @@
-
+<template>
+  <lightning-card>
+       <lightning-layout horizontal-align="center">
+              <lightning-layout-item>
+                      <template if:true={isTom}>               
+                              <img src={tomImage}></img>                       
+                      </template>
+                      <template if:false={isTom}>
+                              <img src={jerryImage}></img>
+                      </template>
+                      <lightning-button variant="brand" label={buttonLabel} title={buttonLabel} onclick={showTomJerryImage}> </lightning-button>
+             </lightning-layout-item>
+          </lightning-layout>
+  </lightning-card> 
+</template>
