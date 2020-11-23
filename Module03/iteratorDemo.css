@@ -1,0 +1,12 @@
+p.two {
+  border-style: solid;
+  border-width: medium;
+}
+.list-first {
+  border-top: 2px solid rgb(14, 13, 13);
+}
+
+.list-last {
+  border-bottom: 2px solid rgb(19, 18, 18);
+
+}
